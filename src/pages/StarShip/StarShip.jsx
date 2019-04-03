@@ -26,12 +26,12 @@ const StarShip = (props) => {
                 </tr>
                 <tr>
                     <td>Learn more:</td>
-                    <td>{props.starships[props.match.params.id].url}</td>
+                    <td><a href={props.starships[props.match.params.id].url} target="_blank">{props.starships[props.match.params.id].url}</a></td>
                 </tr>
             </table>
 
             <div className={styles.div}>
-                <Link to='/'>Return to Starships List</Link>
+                <Link to='/' target="_blank">Return to Starships List</Link>
             </div>
 
 
