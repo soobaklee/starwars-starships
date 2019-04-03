@@ -1,0 +1,25 @@
+.div a {
+    text-decoration: none;
+    color: white;
+    /* background: green; */
+    border: 2px solid whitesmoke;
+    border-radius: 3%;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+table {
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+td {
+    color: white;
+    padding: 10px;
+}
